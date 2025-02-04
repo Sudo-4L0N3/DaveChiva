@@ -489,6 +489,25 @@ header.desktop-header-2 {
   transition: all 0.3s ease-in-out;
   /* === Vertical Menu === */
 }
+
+
+ /* === Dave Chiva Logo === */
+ .site-logo a {
+  text-decoration: none; /* Remove underline */
+  font-size: 35px; /* Adjust font size */
+  font-weight: bold; /* Make it bold */
+}
+
+.logo-red {
+  color: #e94f5a; /* Red color */
+}
+
+.logo-white {
+  color: #ffffff; /* White color */
+}
+
+  /* === Dave Chiva Logo === */
+
 header.desktop-header-2.open {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
@@ -957,6 +976,30 @@ section.home.light .social-icons li a:hover {
   -ms-transform: translateY(-10px);
   transform: translateY(-10px);
 }
+/*=================================================================*/
+/*                      CERTIFICATES                             
+/*=================================================================*/
+
+.certifications-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.thumb {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thumb:hover {
+  transform: scale(1.05);
+}
+
 
 /*=================================================================*/
 /*                      PORTFOLIO                              
